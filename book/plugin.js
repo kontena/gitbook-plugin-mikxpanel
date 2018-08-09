@@ -27,11 +27,11 @@ require(["gitbook"], function(gitbook) {
     };
 
     gitbook.events.bind("start", function(e, config) {
-        var config.mixpanel = config.mixpanel || {};
+        var config.mikxpanel = config.mikxpanel || {};
 
-        mixpanel.init(config.mixpanel.token);
+        mixpanel.init(config.mikxpanel.token);
 
-        event_prefix = event_prefix || config.mixpanel.event_prefix;
+        event_prefix = event_prefix || config.mikxpanel.event_prefix;
 
         track("read");
     });
