@@ -31,7 +31,7 @@ require(["gitbook"], function(gitbook) {
 
         mixpanel.init(config.mikxpanel.token);
 
-        event_prefix = event_prefix || config.mikxpanel.event_prefix;
+        event_prefix = config.mikxpanel.event_prefix || event_prefix;
 
         track("read");
     });
