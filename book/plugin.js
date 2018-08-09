@@ -27,7 +27,7 @@ require(["gitbook"], function(gitbook) {
     };
 
     gitbook.events.bind("start", function(e, config) {
-        var config.mikxpanel = config.mikxpanel || {};
+        config.mikxpanel = config.mikxpanel || {};
 
         mixpanel.init(config.mikxpanel.token);
 
