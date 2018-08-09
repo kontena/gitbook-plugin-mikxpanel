@@ -1,0 +1,10 @@
+{
+    "name": "gitbook-plugin-mikxpanel",
+    "description": "Mikxpanel tracking for your gitbook",
+    "main": "index.js",
+    "version": "0.0.1",
+    "engines": {
+        "gitbook": "*"
+    },
+    "license": "Apache 2"
+}
